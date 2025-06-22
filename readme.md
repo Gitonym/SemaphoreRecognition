@@ -18,7 +18,7 @@ This script starts a gui where an image can be loaded. The program returns the c
 Set the path to the model in this line: ```model = tf.keras.models.load_model('fine_tuned.keras')```
 
 ## model
-All files in this folder expect a different environment. The packages are defined in requirements.txt in this folder. Setting up CUDA and CUDNN is recommended for training.
+All files in this folder expect a different environment. The packages are defined in requirements.txt in this folder. Setting up CUDA and CUDNN is recommended for the scripts in these folders. Best done on linux.
 
 ## model/preprocess.py
 This script preprocesses the data so it can be used with resnet and applies the train and test split.
