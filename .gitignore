@@ -30,3 +30,9 @@ dist/
 
 data/
 archive/
+*.keras
+model/data/
+model/test/
+model/train/
+model/venv/
+model/*.keras
